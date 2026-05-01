@@ -5,57 +5,57 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 const Home = () => {
   return (
     <div className="bg-[#0B1120] text-white">
-  <section
-  id="home"
-  className="min-h-screen flex items-center justify-center px-5 sm:px-6 md:px-10 text-center pt-20 overflow-x-hidden"
->
-  <div className="max-w-4xl mx-auto w-full px-2 sm:px-0">
+    <section id="home" className="min-h-screen flex items-center justify-center px-6 text-center pt-20">
+        <div className="max-w-4xl mx-auto">
 
-    <p className="text-[#F59E0B] text-xs sm:text-sm md:text-base tracking-widest uppercase px-2">
-      Full Stack Developer
-    </p>
+          <p className="text-[#F59E0B] text-xl tracking-widest uppercase ">
+            Full Stack Developer
+          </p>
 
-    <h1 className="text-3xl xs:text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold mb-4 leading-tight tracking-tight bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent break-words px-2">
-      Laiba Fatima
-    </h1>
 
-    <h2 className="text-sm sm:text-base md:text-xl text-gray-300 mb-4 sm:mb-6 px-3 sm:px-2">
-      Building scalable, secure & user-focused web applications
-    </h2>
+        <h1 className="text-7xl md:text-9xl lg:text-[9rem] font-bold mb-4 leading-none tracking-tight bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent whitespace-nowrap">
+  Laiba Fatima
+</h1>
+          <h2 className="text-xl md:text-2xl text-gray-300 mb-6">
+         Building scalable, secure & user-focused web applications
+          </h2>
 
-    <p className="text-gray-400 text-xs sm:text-sm md:text-base max-w-xl sm:max-w-2xl mx-auto mb-8 sm:mb-10 leading-relaxed px-3 sm:px-2">
-      Full Stack Developer with hands-on experience building admin dashboards,
-      management systems, and full-stack applications. Focused on clean code,
-      performance, and real-world solutions.
-    </p>
+          <p className="text-gray-400 max-w-2xl mx-auto mb-10 leading-relaxed">
+            Full Stack Developer with hands-on experience building
+            admin dashboards, management systems, and full-stack applications.
+            Focused on clean code, performance, and real-world solutions.
+          </p>
+<div className="flex justify-center flex-wrap gap-4 mt-6">
 
-    <div className="flex flex-row flex-wrap justify-center items-center gap-2 sm:gap-4 mt-6 px-3 sm:px-2">
+  {/* GitHub */}
+  <a href="https://github.com/laiba112004" target="_blank" rel="noreferrer">
+    <button className="flex items-center gap-2 px-6 py-3 rounded-lg bg-[#1F2937] text-white border border-gray-600 shadow-md hover:bg-[#111827] transition duration-300 cursor-pointer">
+      <FaGithub className="text-lg" />
+      GitHub
+    </button>
+  </a>
 
-      <a href="https://github.com/laiba112004" target="_blank" rel="noreferrer" className="flex-1 sm:flex-none">
-        <button className="w-full sm:w-auto flex items-center justify-center gap-1 sm:gap-2 px-2 sm:px-4 py-2 text-[10px] sm:text-sm md:text-base rounded-lg bg-[#1F2937] text-white border border-gray-600 hover:bg-[#111827] transition">
-          <FaGithub className="text-sm sm:text-base" />
-          GitHub
-        </button>
-      </a>
+  {/* LinkedIn */}
+  <a href="https://www.linkedin.com/in/laiba-fatima-7a2879386/" target="_blank" rel="noreferrer">
+    <button className="flex items-center gap-2 px-6 py-3 rounded-lg bg-[#1F2937] text-white border border-gray-600 shadow-md hover:bg-[#111827] transition duration-300 cursor-pointer">
+      <FaLinkedin className="text-lg" />
+      LinkedIn
+    </button>
+  </a>
 
-      <a href="https://www.linkedin.com/in/laiba-fatima-7a2879386/" target="_blank" rel="noreferrer" className="flex-1 sm:flex-none">
-        <button className="w-full sm:w-auto flex items-center justify-center gap-1 sm:gap-2 px-2 sm:px-4 py-2 text-[10px] sm:text-sm md:text-base rounded-lg bg-[#1F2937] text-white border border-gray-600 hover:bg-[#111827] transition">
-          <FaLinkedin className="text-sm sm:text-base" />
-          LinkedIn
-        </button>
-      </a>
+  {/* Email */}
+  <a href="mailto:laibafatima1119@gmail.com?subject=Work%20Opportunity&body=Hi%20Laiba,%0D%0A%0D%0AI%20visited%20your%20portfolio%20and%20would%20like%20to%20connect%20with%20you.%0D%0A%0D%0AThanks">
+    <button className="flex items-center gap-2 px-6 py-3 rounded-lg bg-[#1F2937] text-white border border-gray-600 shadow-md hover:bg-[#111827] transition duration-300 cursor-pointer">
+      <FaEnvelope className="text-lg" />
+      Email Me
+    </button>
+  </a>
 
-      <a href="mailto:laibafatima1119@gmail.com" className="flex-1 sm:flex-none">
-        <button className="w-full sm:w-auto flex items-center justify-center gap-1 sm:gap-2 px-2 sm:px-4 py-2 text-[10px] sm:text-sm md:text-base rounded-lg bg-[#1F2937] text-white border border-gray-600 hover:bg-[#111827] transition">
-          <FaEnvelope className="text-sm sm:text-base" />
-          Email
-        </button>
-      </a>
+</div>
 
-    </div>
+        </div>
+      </section>
 
-  </div>
-</section>
       <section id="about" className="py-24 px-6 md:px-12 bg-[#0B1120] relative">
         <div className="absolute inset-0 bg-gradient-to-b from-[#F59E0B]/5 to-transparent blur-3xl"></div>
 

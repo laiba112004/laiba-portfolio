@@ -45,12 +45,15 @@ const Home = () => {
         </button>
       </a>
 
-      <a href="mailto:laibafatima1119@gmail.com?subject=Work%20Opportunity&body=Hi%20Laiba,%0D%0A%0D%0AI%20visited%20your%20portfolio%20and%20would%20like%20to%20connect%20with%20you.%0D%0A%0D%0AThanks">
-        <button className="flex items-center gap-2 px-6 py-3 rounded-lg bg-[#1F2937] text-white border border-gray-600 shadow-md hover:bg-[#111827] transition duration-300 cursor-pointer">
-          <FaEnvelope className="text-lg" />
-          Email Me
-        </button>
-      </a>
+     <a
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=laibafatima1119@gmail.com"
+  target="_blank"
+  rel="noreferrer"
+  className="flex items-center gap-2 px-6 py-3 rounded-lg bg-[#1F2937] text-white border border-gray-600 shadow-md hover:bg-[#111827] transition duration-300 cursor-pointer"
+>
+  <FaEnvelope className="text-lg" />
+  Email Me
+</a>
 
     </div>
 

@@ -5,60 +5,60 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 const Home = () => {
   return (
     <div className="bg-[#0B1120] text-white">
- <section
-  id="home"
-  className="min-h-screen flex items-center justify-center px-4 sm:px-6 text-center  pt-32 sm:pt-36 lg:pt-40"
->
-  <div className="max-w-4xl mx-auto w-full">
+      <section
+        id="home"
+        className="min-h-screen flex items-center justify-center px-4 sm:px-6 text-center  pt-32 sm:pt-36 lg:pt-40"
+      >
+        <div className="max-w-4xl mx-auto w-full">
 
-    <p className="text-[#F59E0B] text-sm sm:text-base md:text-lg tracking-widest uppercase">
-      Full Stack Developer
-    </p>
+          <p className="text-[#F59E0B] text-sm sm:text-base md:text-lg tracking-widest uppercase">
+            Full Stack Developer
+          </p>
 
-    <h1 className="text-4xl sm:text-6xl md:text-8xl font-bold mb-4 leading-tight tracking-tight bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent break-words">
-      Laiba Fatima
-    </h1>
+          <h1 className="text-4xl sm:text-6xl md:text-8xl font-bold mb-4 leading-tight tracking-tight bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent break-words">
+            Laiba Fatima
+          </h1>
 
-    <h2 className="text-sm sm:text-lg md:text-xl text-gray-300 mb-6 max-w-xl mx-auto">
-      Building scalable, secure & user-focused web applications
-    </h2>
+          <h2 className="text-sm sm:text-lg md:text-xl text-gray-300 mb-6 max-w-xl mx-auto">
+            Building scalable, secure & user-focused web applications
+          </h2>
 
-    <p className="text-gray-400 text-sm sm:text-base max-w-2xl mx-auto mb-10 leading-relaxed">
-      Full Stack Developer with hands-on experience building
-      admin dashboards, management systems, and full-stack applications.
-      Focused on clean code, performance, and real-world solutions.
-    </p>
+          <p className="text-gray-400 text-sm sm:text-base max-w-2xl mx-auto mb-10 leading-relaxed">
+            Full Stack Developer with hands-on experience building
+            admin dashboards, management systems, and full-stack applications.
+            Focused on clean code, performance, and real-world solutions.
+          </p>
 
-    <div className="flex justify-center flex-wrap gap-4 mt-6">
+          <div className="flex justify-center flex-wrap gap-4 mt-6">
 
-      <a href="https://github.com/laiba112004" target="_blank" rel="noreferrer">
-        <button className="flex items-center gap-2 px-6 py-3 rounded-lg bg-[#1F2937] text-white border border-gray-600 shadow-md hover:bg-[#111827] transition duration-300 cursor-pointer">
-          <FaGithub className="text-lg" />
-          GitHub
-        </button>
-      </a>
+            <a href="https://github.com/laiba112004" target="_blank" rel="noreferrer">
+              <button className="flex items-center gap-2 px-6 py-3 rounded-lg bg-[#1F2937] text-white border border-gray-600 shadow-md hover:bg-[#111827] transition duration-300 cursor-pointer">
+                <FaGithub className="text-lg" />
+                GitHub
+              </button>
+            </a>
 
-      <a href="https://www.linkedin.com/in/laiba-fatima-7a2879386/" target="_blank" rel="noreferrer">
-        <button className="flex items-center gap-2 px-6 py-3 rounded-lg bg-[#1F2937] text-white border border-gray-600 shadow-md hover:bg-[#111827] transition duration-300 cursor-pointer">
-          <FaLinkedin className="text-lg" />
-          LinkedIn
-        </button>
-      </a>
+            <a href="https://www.linkedin.com/in/laiba-fatima-7a2879386/" target="_blank" rel="noreferrer">
+              <button className="flex items-center gap-2 px-6 py-3 rounded-lg bg-[#1F2937] text-white border border-gray-600 shadow-md hover:bg-[#111827] transition duration-300 cursor-pointer">
+                <FaLinkedin className="text-lg" />
+                LinkedIn
+              </button>
+            </a>
 
-     <a
-  href="https://mail.google.com/mail/?view=cm&fs=1&to=laibafatima1119@gmail.com"
-  target="_blank"
-  rel="noreferrer"
-  className="flex items-center gap-2 px-6 py-3 rounded-lg bg-[#1F2937] text-white border border-gray-600 shadow-md hover:bg-[#111827] transition duration-300 cursor-pointer"
->
-  <FaEnvelope className="text-lg" />
-  Email Me
-</a>
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=laibafatima1119@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+              className="flex items-center gap-2 px-6 py-3 rounded-lg bg-[#1F2937] text-white border border-gray-600 shadow-md hover:bg-[#111827] transition duration-300 cursor-pointer"
+            >
+              <FaEnvelope className="text-lg" />
+              Email Me
+            </a>
 
-    </div>
+          </div>
 
-  </div>
-</section>
+        </div>
+      </section>
       <section id="about" className="py-24 px-6 md:px-12 bg-[#0B1120] relative">
         <div className="absolute inset-0 bg-gradient-to-b from-[#F59E0B]/5 to-transparent blur-3xl"></div>
 
@@ -105,7 +105,7 @@ const Home = () => {
                 <p className="text-[#F59E0B] text-lg mb-2">
                   Code5 Technologies • Lahore
                 </p>
-                   <p className="text-gray-500 text-lg mb-3">
+                <p className="text-gray-500 text-lg mb-3">
                   Oct 2025 – March 2026
                 </p>
                 <p className="text-gray-400 text-lg">
@@ -131,7 +131,7 @@ const Home = () => {
                 <p className="text-gray-400 text-lg leading-relaxed">
                   Built responsive and user-friendly interfaces using modern React.js practices.
                   Integrated frontend with backend services using Axios and REST APIs.
-                 
+
                 </p>
               </div>
             </div>
@@ -253,8 +253,8 @@ const Home = () => {
             </h2>
           </div>
 
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
-        <div className="bg-[#111827] rounded-xl overflow-hidden border border-gray-800 hover:-translate-y-2 transition">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
+            <div className="bg-[#111827] rounded-xl overflow-hidden border border-gray-800 hover:-translate-y-2 transition">
 
               <img
                 src="pic2.jpeg"
@@ -277,12 +277,12 @@ const Home = () => {
                 </p>
 
                 <div className="flex gap-3">
-                   <a href="https://github.com/RazaIboothme/Inventory-management.git" target="_blank" rel="noreferrer">
-  <button className="flex items-center gap-2 px-4 py-2 cursor-pointer rounded-lg text-sm bg-[#1F2937] text-white border border-gray-600 hover:bg-[#111827] transition duration-300">
-    <FaGithub />
-   Source Code
-  </button>
-</a>
+                  <a href="https://github.com/laiba112004/IMS-Inventory-Management-System.git" target="_blank" rel="noreferrer">
+                    <button className="flex items-center gap-2 px-4 py-2 cursor-pointer rounded-lg text-sm bg-[#1F2937] text-white border border-gray-600 hover:bg-[#111827] transition duration-300">
+                      <FaGithub />
+                      Source Code
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -310,18 +310,18 @@ const Home = () => {
                 </p>
 
                 <div className="flex gap-3">
-                <a href="https://github.com/Code5-Tech/Wellnet.TMS/compare/Laibacode" target="_blank" rel="noreferrer">
-  <button className="flex items-center gap-2 px-4 py-2 rounded-lg text-sm bg-[#1F2937] cursor-pointer text-white border border-gray-600 hover:bg-[#111827] transition duration-300">
-    <FaGithub />
-   Source Code
-  </button>
-</a>
+                  <a href="https://github.com/Code5-Tech/Wellnet.TMS/compare/Laibacode" target="_blank" rel="noreferrer">
+                    <button className="flex items-center gap-2 px-4 py-2 rounded-lg text-sm bg-[#1F2937] cursor-pointer text-white border border-gray-600 hover:bg-[#111827] transition duration-300">
+                      <FaGithub />
+                      Source Code
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
 
 
-          
+
 
 
             <div className="bg-[#111827] rounded-xl overflow-hidden border border-gray-800 hover:-translate-y-2 transition">
@@ -348,11 +348,11 @@ const Home = () => {
 
                 <div className="flex gap-3">
                   <a href="https://github.com/laiba112004/frontend.git" target="_blank" rel="noreferrer">
-  <button className="flex items-center gap-2 cursor-pointer px-4 py-2 rounded-lg text-sm bg-[#1F2937] text-white border border-gray-600 hover:bg-[#111827] transition duration-300">
-    <FaGithub />
-   Source Code
-  </button>
-</a>
+                    <button className="flex items-center gap-2 cursor-pointer px-4 py-2 rounded-lg text-sm bg-[#1F2937] text-white border border-gray-600 hover:bg-[#111827] transition duration-300">
+                      <FaGithub />
+                      Source Code
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -366,26 +366,26 @@ const Home = () => {
 
               <div className="p-5">
                 <h3 className="text-lg font-semibold text-white mb-2">
-PHP CRUD Application                </h3>
+                  PHP CRUD Application                </h3>
 
                 <p className="text-[#F59E0B] text-lg mb-2">
                   PHP • HTML • CSS • MySQL
                 </p>
 
                 <p className="text-gray-400 text-lg mb-4">
-                 Developed a complete Create, Read, Update, Delete (CRUD) application for user account management
- Enabled secure registration, login, and personalized dashboard display.
+                  Developed a complete Create, Read, Update, Delete (CRUD) application for user account management
+                  Enabled secure registration, login, and personalized dashboard display.
                 </p>
 
                 <div className="flex gap-3">
-                    <a href="  https://github.com/laiba112004/login-signup-crud.git" target="_blank" rel="noreferrer">
-  <button className="flex items-center gap-2 cursor-pointer px-4 py-2 rounded-lg text-sm bg-[#1F2937] text-white border border-gray-600 hover:bg-[#111827] transition duration-300">
-    <FaGithub />
-   Source Code
-  </button>
-</a>
+                  <a href="  https://github.com/laiba112004/login-signup-crud.git" target="_blank" rel="noreferrer">
+                    <button className="flex items-center gap-2 cursor-pointer px-4 py-2 rounded-lg text-sm bg-[#1F2937] text-white border border-gray-600 hover:bg-[#111827] transition duration-300">
+                      <FaGithub />
+                      Source Code
+                    </button>
+                  </a>
 
-               
+
                 </div>
               </div>
             </div>
@@ -394,61 +394,61 @@ PHP CRUD Application                </h3>
           </div>
         </div>
       </section>
-<section id="contact" className="py-24 px-6 bg-[#0B1120] text-center">
+      <section id="contact" className="py-24 px-6 bg-[#0B1120] text-center">
 
-  <div className="max-w-3xl mx-auto">
+        <div className="max-w-3xl mx-auto">
 
-    {/* Heading */}
-    <h2 className="text-4xl md:text-5xl font-bold mb-4">
-      Get In <span className="text-[#F59E0B]">Touch</span>
-    </h2>
+          {/* Heading */}
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">
+            Get In <span className="text-[#F59E0B]">Touch</span>
+          </h2>
 
-    {/* Typewriter */}
-    <div className="text-gray-400 text-lg mb-5 min-h-[60px]">
-      <Typewriter
-        options={{
-          strings: [
-            "Open to internships and junior developer roles.",
-            "Available for freelance and real-world projects.",
-            "Let's build something amazing together."
-          ],
-          autoStart: true,
-          loop: true,
-          delay: 40,
-          deleteSpeed: 20,
-        }}
-      />
-    </div>
+          {/* Typewriter */}
+          <div className="text-gray-400 text-lg mb-5 min-h-[60px]">
+            <Typewriter
+              options={{
+                strings: [
+                  "Open to internships and junior developer roles.",
+                  "Available for freelance and real-world projects.",
+                  "Let's build something amazing together."
+                ],
+                autoStart: true,
+                loop: true,
+                delay: 40,
+                deleteSpeed: 20,
+              }}
+            />
+          </div>
 
-    {/* Contact Card */}
-    <div className="bg-[#111827] border border-gray-800 rounded-2xl p-8 shadow-lg backdrop-blur-md">
+          {/* Contact Card */}
+          <div className="bg-[#111827] border border-gray-800 rounded-2xl p-8 shadow-lg backdrop-blur-md">
 
-      <div className="flex flex-col gap-6">
+            <div className="flex flex-col gap-6">
 
-        {/* Email */}
-        <a href="mailto:laibafatima1119@gmail.com" className="flex items-center justify-center gap-2 text-gray-300 hover:text-white transition">
-          <span className="text-[#F59E0B] text-xl">✉</span>
-          <span className="text-lg">laibafatima1119@gmail.com</span>
-        </a>
+              {/* Email */}
+              <a href="mailto:laibafatima1119@gmail.com" className="flex items-center justify-center gap-2 text-gray-300 hover:text-white transition">
+                <span className="text-[#F59E0B] text-xl">✉</span>
+                <span className="text-lg">laibafatima1119@gmail.com</span>
+              </a>
 
-        {/* Phone */}
-        <a href="tel:+923237754738" className="flex items-center justify-center gap-2 text-gray-300 hover:text-white transition">
-          <span className="text-[#F59E0B] text-xl">📞</span>
-          <span className="text-lg">+92 323 7754738</span>
-        </a>
+              {/* Phone */}
+              <a href="tel:+923237754738" className="flex items-center justify-center gap-2 text-gray-300 hover:text-white transition">
+                <span className="text-[#F59E0B] text-xl">📞</span>
+                <span className="text-lg">+92 323 7754738</span>
+              </a>
 
-        {/* Location */}
-        <div className="flex items-center justify-center gap-2 text-gray-300">
-          <span className="text-[#F59E0B] text-xl">📍</span>
-          <span className="text-lg">Lahore, Pakistan</span>
+              {/* Location */}
+              <div className="flex items-center justify-center gap-2 text-gray-300">
+                <span className="text-[#F59E0B] text-xl">📍</span>
+                <span className="text-lg">Lahore, Pakistan</span>
+              </div>
+
+            </div>
+
+          </div>
+
         </div>
-
-      </div>
-
-    </div>
-
-  </div>
-</section>
+      </section>
     </div>
   )
 }

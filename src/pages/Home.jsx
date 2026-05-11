@@ -32,14 +32,14 @@ const Home = () => {
           <div className="flex justify-center flex-wrap gap-4 mt-6">
 
             <a href="https://github.com/laiba112004" target="_blank" rel="noreferrer">
-              <button className="flex items-center gap-2 px-6 py-3 rounded-lg bg-[#1F2937] text-white border border-gray-600 shadow-md hover:bg-[#111827] transition duration-300 cursor-pointer">
+              <button className="flex items-center gap-2 px-4 sm:px-6 py-2 sm:py-3 text-sm sm:text-base rounded-lg bg-[#1F2937] text-white border border-gray-600 shadow-md hover:bg-[#111827] transition duration-300 cursor-pointer">
                 <FaGithub className="text-lg" />
                 GitHub
               </button>
             </a>
 
             <a href="https://www.linkedin.com/in/laiba-fatima-7a2879386/" target="_blank" rel="noreferrer">
-              <button className="flex items-center gap-2 px-6 py-3 rounded-lg bg-[#1F2937] text-white border border-gray-600 shadow-md hover:bg-[#111827] transition duration-300 cursor-pointer">
+              <button className="flex items-center gap-2 px-4 sm:px-6 py-2 sm:py-3 text-sm sm:text-base rounded-lg bg-[#1F2937] text-white border border-gray-600 shadow-md hover:bg-[#111827] transition duration-300 cursor-pointer">
                 <FaLinkedin className="text-lg" />
                 LinkedIn
               </button>
@@ -49,7 +49,7 @@ const Home = () => {
               href="https://mail.google.com/mail/?view=cm&fs=1&to=laibafatima1119@gmail.com"
               target="_blank"
               rel="noreferrer"
-              className="flex items-center gap-2 px-6 py-3 rounded-lg bg-[#1F2937] text-white border border-gray-600 shadow-md hover:bg-[#111827] transition duration-300 cursor-pointer"
+              className="flex items-center gap-2 px-4 sm:px-6 py-2 sm:py-3 text-sm sm:text-base rounded-lg bg-[#1F2937] text-white border border-gray-600 shadow-md hover:bg-[#111827] transition duration-300 cursor-pointer"
             >
               <FaEnvelope className="text-lg" />
               Email Me
@@ -138,21 +138,21 @@ const Home = () => {
 
           </div>
 
-          <div className="flex flex-wrap justify-center gap-6 mt-16">
+          <div className="flex flex-wrap justify-center gap-4 mt-16">
 
-            <div className="px-6 py-4 rounded-xl bg-white/5 border border-white/10 backdrop-blur-md shadow-md hover:bg-white/10 transition-all duration-300 text-center cursor-pointer">
-              <h3 className="text-3xl font-bold text-white">2+</h3>
-              <p className="text-gray-400 text-sm mt-1">Years Experience</p>
+            <div className="px-3 sm:px-4 py-2 sm:py-3 rounded-xl bg-white/5 border border-white/10 backdrop-blur-md shadow-md hover:bg-white/10 transition-all duration-300 text-center cursor-pointer">
+           <h3 className="text-xl sm:text-2xl font-bold text-white">2+</h3>
+              <p className="text-[11px] sm:text-xs text-gray-400 mt-1">Years Experience</p>
             </div>
 
-            <div className="px-6 py-4 rounded-xl bg-white/5 border border-white/10 backdrop-blur-md shadow-md hover:bg-white/10 transition-all duration-300 text-center cursor-pointer">
-              <h3 className="text-3xl font-bold text-white">5+</h3>
-              <p className="text-gray-400 text-sm mt-1">Projects Delivered</p>
+            <div className="px-3 sm:px-4 py-2 sm:py-3 rounded-xl bg-white/5 border border-white/10 backdrop-blur-md shadow-md hover:bg-white/10 transition-all duration-300 text-center cursor-pointer">
+              <h3 className="text-xl sm:text-2xl font-bold text-white">5+</h3>
+              <p className="text-[11px] sm:text-xs text-gray-400 mt-1">Projects Delivered</p>
             </div>
 
-            <div className="px-6 py-4 rounded-xl bg-white/5 border border-white/10 backdrop-blur-md shadow-md hover:bg-white/10 transition-all duration-300 text-center cursor-pointer">
-              <h3 className="text-3xl font-bold text-white">MERN</h3>
-              <p className="text-gray-400 text-sm mt-1">Core Stack</p>
+            <div className="px-3 sm:px-4 py-2 sm:py-3 rounded-xl bg-white/5 border border-white/10 backdrop-blur-md shadow-md hover:bg-white/10 transition-all duration-300 text-center cursor-pointer">
+              <h3 className="text-xl sm:text-2xl font-bold text-white">MERN</h3>
+              <p className="text-[11px] sm:text-xs text-gray-400 mt-1">Core Stack</p>
             </div>
 
           </div>
@@ -310,7 +310,7 @@ const Home = () => {
                 </p>
 
                 <div className="flex gap-3">
-                  <a href="https://github.com/Code5-Tech/Wellnet.TMS/compare/Laibacode" target="_blank" rel="noreferrer">
+                  <a href="https://github.com/laiba112004/TMS-Ticket-Management-System.git" target="_blank" rel="noreferrer">
                     <button className="flex items-center gap-2 px-4 py-2 rounded-lg text-sm bg-[#1F2937] cursor-pointer text-white border border-gray-600 hover:bg-[#111827] transition duration-300">
                       <FaGithub />
                       Source Code
